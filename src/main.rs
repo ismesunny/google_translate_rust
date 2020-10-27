@@ -39,11 +39,7 @@ let url = generate_url(args, source, target);
                 .map(|s| s[0].as_str().unwrap())
                 .collect::<Vec<&str>>()
                 .join(" ");
-            // println!("{}", result);
-            // stdout()
-            //     .lock()
-            //     .write_all(format!("{}\n", result).as_bytes())
-            //     .unwrap();
+
             store_word = result;    
         }
 
